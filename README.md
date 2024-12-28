@@ -37,4 +37,4 @@ The project includes the following files:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/<your-username>/css-positioning-with-gbemi.git
+   git clone https://github.com/oladetoungee/css-positioning
