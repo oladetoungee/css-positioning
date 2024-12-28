@@ -1,0 +1,75 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 10px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+h2 {
+  margin-top: 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.static-box {
+  background-color: #ff6f61;
+}
+
+.relative-box {
+  background-color: #606060;
+  position: relative;
+  top: 40px;
+left: 40px;
+}
+
+.absolute-container {
+position: relative;
+   height: 200px;
+   background: #ddd;
+   margin-top: 20px;
+   padding: 10px;
+ }
+ .absolute-box {
+  position: absolute ;
+   background-color: #2ecc71;
+   top: 0;
+   right: 0;
+
+ }
+ .fixed-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #e67e22;
+
+}
+.sticky-box {
+  background-color: #3498db;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 10%;
+}
